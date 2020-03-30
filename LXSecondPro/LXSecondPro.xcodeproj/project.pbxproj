@@ -15,6 +15,7 @@
 		84385A702431955B00AFE8D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84385A6E2431955B00AFE8D3 /* LaunchScreen.storyboard */; };
 		84385A732431955B00AFE8D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84385A722431955B00AFE8D3 /* main.m */; };
 		84385A7D2431955B00AFE8D3 /* LXSecondProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84385A7C2431955B00AFE8D3 /* LXSecondProUITests.m */; };
+		84385A902431991E00AFE8D3 /* LXFooterRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 84385A8E2431991E00AFE8D3 /* LXFooterRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		84385A782431955B00AFE8D3 /* LXSecondProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXSecondProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84385A7C2431955B00AFE8D3 /* LXSecondProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXSecondProUITests.m; sourceTree = "<group>"; };
 		84385A7E2431955B00AFE8D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84385A8E2431991E00AFE8D3 /* LXFooterRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXFooterRefresh.m; sourceTree = "<group>"; };
+		84385A8F2431991E00AFE8D3 /* LXFooterRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXFooterRefresh.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +115,18 @@
 		84385A882431966A00AFE8D3 /* myTool */ = {
 			isa = PBXGroup;
 			children = (
+				84385A8D2431991E00AFE8D3 /* refhresh */,
 			);
 			path = myTool;
+			sourceTree = "<group>";
+		};
+		84385A8D2431991E00AFE8D3 /* refhresh */ = {
+			isa = PBXGroup;
+			children = (
+				84385A8E2431991E00AFE8D3 /* LXFooterRefresh.m */,
+				84385A8F2431991E00AFE8D3 /* LXFooterRefresh.h */,
+			);
+			path = refhresh;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +231,7 @@
 			files = (
 				84385A682431955A00AFE8D3 /* ViewController.m in Sources */,
 				84385A622431955A00AFE8D3 /* AppDelegate.m in Sources */,
+				84385A902431991E00AFE8D3 /* LXFooterRefresh.m in Sources */,
 				84385A732431955B00AFE8D3 /* main.m in Sources */,
 				84385A652431955A00AFE8D3 /* SceneDelegate.m in Sources */,
 			);

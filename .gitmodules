@@ -1,0 +1,3 @@
+[submodule "LXSecondPro/LXSecondPro/myTool"]
+	path = LXSecondPro/LXSecondPro/myTool
+	url = https://github.com/liuxinxiaoyue/CommonLib.git
